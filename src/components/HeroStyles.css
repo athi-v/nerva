@@ -1,0 +1,35 @@
+.hero {
+font-family: 'Poppins';
+background-color: #f1f5f9;
+    }
+.hero {
+padding: 1% 5%;
+}
+
+.hero .hero-image {
+    width: 100%;
+}
+
+.hero .text {
+text-align: justify;
+padding: 10% 0%;
+}
+.hero h2 {
+    font-weight: 800;
+    font-size: 1.9rem;
+}
+.hero .btn {
+ background-color: #00BFA6;
+ border: #00BFA6;
+ border-radius: 25px;
+ width: 50%;
+ margin-top: 25px;
+ color: #fff;
+}
+
+@media screen and (max-width:920px) {
+    .hero .text {
+        text-align: center;
+        padding: 15% 0%;
+     }
+}

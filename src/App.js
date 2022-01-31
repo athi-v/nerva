@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import ScrollToTop from "react-scroll-to-top";
+import NavComponents from './components/NavComponents'
+import Hero from './components/Hero';
+import Services from './components/Services';
+import Work from './components/Work';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-Changes!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <ScrollToTop smooth height='20' />
+<NavComponents />
+<Hero />
+<Services />
+<Work />
+<Contact />
+<Footer />
+    </>
   );
 }
 

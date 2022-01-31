@@ -1,0 +1,24 @@
+.services {
+    font-family: 'Poppins';
+    background-color: #edeafa;
+
+}
+
+.services .container-fluid {
+    padding: 1% 9%;
+    text-align: center;
+}
+
+.services .text {
+    text-align: center;
+    padding: 5% 0%;
+    color: #000;
+}
+
+.services .icons {
+    font-size: 2.9rem;
+}
+
+@media screen and (max-width:920px) {
+ 
+}

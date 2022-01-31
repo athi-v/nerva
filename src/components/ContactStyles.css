@@ -1,0 +1,40 @@
+.contact {
+    font-family: 'Poppins';
+    background-color: #edeafa;
+}
+
+.contact .container-fluid {
+    padding: 1% 9%;
+    text-align: center;
+}
+
+.contact .text {
+    text-align: center;
+    padding: 5% 0%;
+}
+.contact .text-just {
+    text-align: center;
+    padding: 5% 0%;
+}
+
+
+.contact .icons {
+    font-size: 1.2rem;
+}
+
+.contact .btn {
+    background-color: #00BFA6;
+    border: #00BFA6;
+    border-radius: 25px;
+    width: 50%;
+    margin-top: 25px;
+    color: #fff;
+}
+
+@media screen and (max-width:920px) {
+    .contact .text-just {
+        text-align: center;
+        padding: 5% 0%;
+    }
+    
+}

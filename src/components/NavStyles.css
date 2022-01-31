@@ -1,0 +1,41 @@
+header {
+    background-color: #f1f5f9;
+
+}
+header .container-fluid {
+    padding: 1% 5%;
+}
+header .navbar-brand {
+font-family: 'Nunito Sans';
+font-size: 2.5rem;
+font-weight: 700;
+color: #000;
+}
+
+header .nav-link {
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    color: #000;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+header .dot {
+    color:#00BFA6;
+    font-weight: 900;
+}
+header .nav-link:hover {
+    color: #000;
+    text-decoration: underline #00BFA6;
+}
+
+header .navbar-toggler {
+    color: #000;
+}
+
+@media screen and (max-width:920px) {
+    header .nav-link {
+      
+    text-align: center;
+line-height: 6;}
+}
