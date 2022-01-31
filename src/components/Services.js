@@ -3,11 +3,11 @@ import {FaReact, FaWordpress, FaNode} from 'react-icons/fa'
 import './ServicesStyles.css'
 const Services = () => {
   return (
-      <div className='services'>
+      <div className='technology'>
           <div class="container-fluid">
 <div class="row">
 <div className='text col-lg-12'>
-    <h1>Our Services</h1>
+    <h1>Technology</h1>
 </div>
 <div className='text col-lg-4'>
 <FaReact className='icons' />

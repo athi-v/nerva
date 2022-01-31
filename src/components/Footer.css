@@ -5,22 +5,29 @@ footer {
 }
 
 footer .container-fluid {
-    padding: 1% 9%;
+    padding: 0% 9%;
 
 }
 
 footer .text-left {
     text-align: left;
-    padding: 5% 0%;
+    padding: 1% 0%;
 }
 footer .text-right {
    text-align: right;
-    padding: 5% 0%;
+    padding: 1% 0%;
 }
 
 footer .icons {
     margin-left: 60px;
     font-size: 25px;
+    color: rgb(167, 163, 163);
+    cursor: pointer;
+}
+
+footer .icons:hover {
+   
+color:#000;
 }
 @media screen and (max-width:920px) {
     footer .text-left {

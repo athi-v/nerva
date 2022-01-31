@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './Work.css'
 const Work = () => {
   return (
@@ -13,25 +12,33 @@ const Work = () => {
                   <div className='row'>
 
                   <div className='text-cards col-lg-3'>
+                  <div className='lock'>
                         <h3>Plan</h3>
                         <p>We plan the website with you.</p>
-                      </div>
+                      </div></div>
                       
                       <div className='text-cards col-lg-3'>
+                      <div className='lock'>  
+
                        <h3>Design</h3>
                         <p>We design websites that are easy to use.</p>
                       </div>
-
-                      <div className='text-cards col-lg-3'>
-                        <h3>Develop</h3>
-                        <p>We write code that runs smoothly and responsive on all devices.</p>
                       </div>
 
                       <div className='text-cards col-lg-3'>
+                        <div className='lock'>  
+                        <h3>Develop</h3>
+                        <p>We write code that runs smoothly and responsive on all devices.</p>
+                      </div></div>
+                      
+
+                      <div className='text-cards col-lg-3'>
+                      <div className='lock'>  
+
                         <h3>Deploy</h3>
                         <p>We deploy to your website with minimum hassles so that everyone can access it.</p>
                       </div>
-                      
+                      </div>
                   </div>
                      
                   </div>

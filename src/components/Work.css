@@ -8,7 +8,9 @@
     padding: 10% 15%;
     text-align: center;
 }
-.work .text-cards {
+.work .lock {
+    border: 1px solid lightgray;
+    border-radius: 20px;
     padding: 50px;
 }
 
@@ -22,9 +24,14 @@
     background-color: #00BFA6;
     border: #00BFA6;
     border-radius: 25px;
-    width: 50%;
+    width: 65%;
     margin-top: 25px;
     color: #fff;
+}
+
+.work .btn:hover {
+    background-color: rgb(175, 228, 175);
+    border: rgb(175, 228, 175);
 }
 @media screen and (max-width:920px) {
     .work .card {
@@ -39,5 +46,7 @@
     .work .container-fluid {
         padding: 15% 15%;
     }
-    
+    .work .btn {
+        width: 100%; 
+        }
 }

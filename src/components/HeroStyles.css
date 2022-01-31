@@ -22,14 +22,20 @@ padding: 10% 0%;
  background-color: #00BFA6;
  border: #00BFA6;
  border-radius: 25px;
- width: 50%;
+ width: 100%;
  margin-top: 25px;
  color: #fff;
 }
 
+.hero .btn:hover {
+background-color: rgb(175, 228, 175);
+}
 @media screen and (max-width:920px) {
     .hero .text {
         text-align: center;
         padding: 15% 0%;
      }
+     .hero .btn {
+    width: 95%; 
+    }
 }

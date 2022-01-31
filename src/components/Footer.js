@@ -9,8 +9,8 @@ const Footer = () => {
           <p>Nerva. 2021 - 2022 </p>
 </div>
 <div class="text-right col-lg-6">
-<FaInstagram className='icons' />
-<FaTwitter className='icons' />
+<a href='https://www.instagram.com/tv/CWobMJagbyB/?utm_medium=copy_link'><FaInstagram className='icons' /></a>
+<a href='https://twitter.com/NervaDevelopers?t=mhze0yoM_CMD03UvaFDmmw&s=09'><FaTwitter className='icons' /></a>
 <FaLinkedin className='icons' />
 
 </div>

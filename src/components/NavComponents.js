@@ -18,7 +18,7 @@ const NavComponents = () => {
           <Link to='hero' className='nav-link'>Home</Link>
         </li>
         <li className="nav-item">
-        <Link to='services' className='nav-link'>Our Services</Link>
+        <Link to='technology' className='nav-link'>Technology</Link>
         </li>
         <li className="nav-item">
           <Link to='work' className='nav-link'>Our Work</Link>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Ideas from '../assets/clean.png'
+import {Link} from 'react-scroll'
 import './HeroStyles.css'
 const Hero = () => {
   return (
@@ -12,9 +13,10 @@ const Hero = () => {
 </div>
 
 <div class="text col-lg-6">
-<h2>We Create Websites.</h2>
+<h2 >We Create Websites.</h2>
 <h2>We Bring Your Vision To Life..</h2>
-<button className='btn btn-primary'>Contact</button>
+<Link to='contact'><button className='btn btn-primary'>Contact</button>
+</Link>
 </div>
 </div>
 </div>

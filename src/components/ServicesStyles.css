@@ -1,22 +1,22 @@
-.services {
+.technology {
     font-family: 'Poppins';
     background-color: #edeafa;
 
 }
 
-.services .container-fluid {
+.technology .container-fluid {
     padding: 1% 9%;
     text-align: center;
 }
 
-.services .text {
+.technology .text {
     text-align: center;
     padding: 5% 0%;
     color: #000;
 }
 
-.services .icons {
-    font-size: 2.9rem;
+.technology .icons {
+    font-size: 3.2rem;
 }
 
 @media screen and (max-width:920px) {
