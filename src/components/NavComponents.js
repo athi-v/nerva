@@ -8,7 +8,7 @@ const NavComponents = () => {
 <header>
 <nav className="navbar navbar-expand-md">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">Nerva<span className='dot'>.</span></a>
+  <Link to='/' className="navbar-brand">Nerva<span className='dot'>.</span></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <Hamburger toggled={isOpen} toggle={setOpen} />
         </button>

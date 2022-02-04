@@ -1,6 +1,6 @@
 .technology {
     font-family: 'Poppins';
-    background-color: #edeafa;
+    background-color: #fff;
 
 }
 
@@ -11,8 +11,8 @@
 
 .technology .text {
     text-align: center;
-    padding: 5% 0%;
-    color: #000;
+    padding: 3% 0%;
+    color: rgb(97, 96, 96);
 }
 
 .technology .icons {

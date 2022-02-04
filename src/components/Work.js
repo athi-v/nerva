@@ -1,13 +1,17 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import './Work.css'
 const Work = () => {
+
+  
   return (
       <div className='work'>
           <div className='container-fluid'>
               <div className='row'>
-                  <div className='text col-lg-12'>
+                  <div className='col-lg-12'>
                       <h1>Our Work</h1>
                   </div>
+
                   <div className='text col-lg-12'>
                   <div className='row'>
 
@@ -40,10 +44,9 @@ const Work = () => {
                       </div>
                       </div>
                   </div>
-                     
-                  </div>
+                   </div>
                   <div className='text col-lg-12'>
-                      <button className='btn'>See our work</button>
+                  <button className='btn'>See our work</button>
                   </div>
               </div>
           </div>

@@ -1,48 +1,86 @@
 .contact {
     font-family: 'Poppins';
-    background-color: #edeafa;
+    color: rgb(97, 96, 96);
+    background-color: #fff;
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
 }
-
-.contact .container-fluid {
-    padding: 1% 9%;
-    text-align: center;
-}
-
 .contact .text {
     text-align: center;
-    padding: 5% 0%;
-}
-.contact .text-just {
-    text-align: center;
-    padding: 5% 0%;
-}
-
-
-.contact .icons {
-    font-size: 1.2rem;
+    padding: 3% 0%;
+    color: rgb(97, 96, 96);
 }
 
 .contact .btn {
     background-color: #00BFA6;
     border: #00BFA6;
     border-radius: 25px;
-    width: 65%;
+    width: 100%;
     margin-top: 25px;
     color: #fff;
+   }
+   
+   .contact .btn:hover {
+   background-color: rgb(175, 228, 175);
+   }
+
+
+.contact .col-lg-6 h2 {
+    font-size: 28px;
+    padding: 0rem 2rem;
 }
 
-.contact .btn:hover {
-    background-color: rgb(175, 228, 175);
-    border: rgb(175, 228, 175);
+
+.contact .col-lg-6 .icons {
+    color: #000;
+    align-items: center;
+    padding: 0rem 2rem;
 }
 
-@media screen and (max-width:920px) {
-    .contact .text-just {
+.contact .blacks {
+color: #000;
+}
+
+
+.contact .careers {
+    padding: 2rem 0;
+}
+
+
+.contact .col-2 {
+    flex: 1 0 55%;
+    padding: 5rem 2rem;
+}
+
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+}
+
+.contact form input {
+    margin-bottom: 1rem;
+    padding: .6rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid rgb(97, 96, 96);
+}
+
+.contact form textarea {
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: 1px solid rgb(97, 96, 96);
+    font-family: 'Poppins';
+}
+
+
+@media screen and (max-width:960px) {
+    .contact .ic {
         text-align: center;
-        padding: 5% 0%;
     }
-    .contact .btn {
-        width: 95%; 
-        }
-    
 }

@@ -1,23 +1,18 @@
 .work {
     font-family: 'Poppins';
-    background-color: #f1f5f9;
-
-}
+    background-color: #22262a;
+    color: #fff;
+    }
 
 .work .container-fluid {
-    padding: 10% 15%;
+    padding: 2% 15%;
     text-align: center;
-}
-.work .lock {
-    border: 1px solid lightgray;
-    border-radius: 20px;
-    padding: 50px;
 }
 
 .work .card {
     width: 100%;
     height: 10vh;
-    padding: 15px;
+    padding: 70px;
 }
 
 .work .btn {
