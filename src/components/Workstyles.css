@@ -1,0 +1,44 @@
+.workroutes {
+    font-family: 'Poppins';
+    background-color: #22262a;
+    color: #000;
+    }
+
+.workroutes .container-fluid {
+    padding: 2% 15%;
+    text-align: center;
+}
+
+.workroutes a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.workroutes a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.workroutes .btn {
+    background-color: #00BFA6;
+    border: #00BFA6;
+    border-radius: 25px;
+    width: 65%;
+    margin-top: 25px;
+    color: #fff;
+}
+
+.workroutes .btn:hover {
+    background-color: rgb(175, 228, 175);
+    border: rgb(175, 228, 175);
+}
+.workroutes .row {
+    padding: 5px;
+}
+
+.workroutes .card-body {
+    background-color: #22262a;
+    border: 1px solid rgb(97, 96, 96);
+
+}
+

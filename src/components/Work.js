@@ -43,11 +43,13 @@ const Work = () => {
                         <p>We deploy to your website with minimum hassles so that everyone can access it.</p>
                       </div>
                       </div>
+                      <div className='text col-lg-12'>
+{/* <Link to='/work'><button className='btn'>See our work</button></Link> */}
+
+</div>
                   </div>
                    </div>
-                  <div className='text col-lg-12'>
-                  <button className='btn'>See our work</button>
-                  </div>
+                  
               </div>
           </div>
       </div>

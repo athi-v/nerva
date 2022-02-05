@@ -1,32 +1,31 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-scroll'
 import {FaFacebook, FaGithub, FaLinkedin, FaTwitter, FaInstagram} from 'react-icons/fa'
-import About from '../routes/Work'
 import './Footer.css'
 const Footer = () => {
   return (
 <div className='footer'>
             <div className='container'>
                 <div className='col col-1'>
-                    <h1>Nerva<span>.</span></h1>
+                    <Link className='links' to='/'><h1>Nerva<span>.</span></h1></Link>
                 </div>
                 <div className='col'>
                     <h5>Support</h5>
                     <span className='bar'></span>
-                        <a href='/'>Contact Us</a>
-                        <a href='/'>FAQ</a>
+                    <Link className='links' to='contact'>Contact Us</Link>
+                    <Link className='links' to='/'>FAQ </Link>
 
                 </div>
                 <div className='col'>
                     <h5>Developers</h5>
                     <span className='bar'> </span>
-                        <a href='/'>API</a>
+                        <Link className='links' to='/'>API</Link>
                    
                 </div>
                 <div className='col'>
                     <h5>Company</h5>
                     <span className='bar'> </span>
-                        <Link to={About}>About</Link>
+                    <Link className='links' to='/'>About</Link>
                 </div>
                 <div className='col'>
                     <h5>Social</h5>
