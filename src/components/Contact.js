@@ -1,21 +1,9 @@
 import React, { useRef } from 'react'
-import emailjs from '@emailjs/browser';
 import { FaEnvelope, FaPhone } from 'react-icons/fa'
 import './ContactStyles.css'
 
 const Contact = () => {
-    const form = useRef();
-    const sendEmail = (e) => {
-        e.preventDefault();
-    
-        emailjs.sendForm('service_hm7voyp', 'template_x0nyocr', form.current, 'user_OA7DWTJNaVXrrjR1MCBWo')
-          .then((result) => {
-            //   console.log(result.text);
-              alert("Email sent successfully!");
-          }, (error) => {
-              console.log(error.text);
-          });
-      };
+
     return (
         <div className='contact'>
             <div className='container-fluid'>
@@ -26,17 +14,17 @@ const Contact = () => {
                 </div>
                     <div className='ic col-lg-6'>
                          <div className='icons'>
-                            <FaPhone style={{marginRight: '1rem'}} /> (+27)733901637
+                            <FaPhone style={{marginRight: '1rem'}} /> (+27) 78 952 9447
                             <p></p>
                         </div>
                         <div className='icons'>
-                            <FaEnvelope style={{marginRight: '1rem'}} /> athenkosivinqi25@gmail.com
+                            <FaEnvelope style={{marginRight: '1rem'}} /> nervadevelop@gmail.com
                             <p></p>
                         </div>
                       
                     </div>
                     <div className='ic col-lg-6'>
-                    <form ref={form} onSubmit={sendEmail}>
+                    <form action="https://getform.io/f/e533a688-8098-41c8-85f6-cb0f42115a8e" method="POST">
                         <input type='text' name='name' placeholder='Full name'  />
                         <input type='email' name='user_email' placeholder='Email' />
                         <textarea name='message' placeholder='Message' cols='30' rows='10'></textarea>
